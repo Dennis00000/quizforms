@@ -1,0 +1,637 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "create": "Создать",
+    "submit": "Отправить",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Назад",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "sort": "Сортировка",
+    "actions": "Действия",
+    "confirm": "Подтвердить",
+    "yes": "Да",
+    "no": "Нет"
+  },
+  "auth": {
+    "login": {
+      "title": "Вход",
+      "email_label": "Email",
+      "password_label": "Пароль",
+      "submit": "Войти",
+      "forgot_password": "Забыли пароль?",
+      "no_account": "Нет аккаунта?",
+      "sign_up": "Зарегистрироваться"
+    },
+    "register": {
+      "title": "Регистрация",
+      "name_label": "Имя",
+      "email_label": "Email",
+      "password_label": "Пароль",
+      "confirm_password_label": "Подтвердите пароль",
+      "submit": "Создать аккаунт",
+      "have_account": "Уже есть аккаунт?",
+      "sign_in": "Войти"
+    },
+    "forgot_password": {
+      "title": "Восстановление пароля",
+      "description": "Введите ваш email и мы отправим вам ссылку для сброса пароля.",
+      "email_label": "Email",
+      "submit": "Отправить ссылку"
+    },
+    "reset_password": {
+      "title": "Сброс пароля",
+      "new_password_label": "Новый пароль",
+      "confirm_password_label": "Подтвердите новый пароль",
+      "submit": "Сбросить пароль"
+    },
+    "success": {
+      "logged_in": "Вход выполнен успешно",
+      "registered": "Регистрация успешна",
+      "password_reset": "Письмо для сброса пароля отправлено",
+      "password_updated": "Пароль успешно обновлен",
+      "logged_out": "Выход выполнен успешно"
+    },
+    "errors": {
+      "login_failed": "Ошибка входа. Проверьте ваши данные и попробуйте снова.",
+      "registration_failed": "Ошибка регистрации. Попробуйте снова.",
+      "failed_to_load_user": "Не удалось загрузить информацию пользователя",
+      "invalid_email": "Введите корректный email адрес",
+      "invalid_password": "Пароль должен быть не менее 8 символов",
+      "passwords_dont_match": "Пароли не совпадают",
+      "email_already_exists": "Пользователь с таким email уже существует",
+      "reset_failed": "Ошибка сброса пароля. Попробуйте снова.",
+      "unauthorized": "У вас нет прав для доступа к этому ресурсу"
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Главная",
+      "dashboard": "Панель управления",
+      "templates": "Шаблоны",
+      "submissions": "Заявки",
+      "profile": "Профиль",
+      "admin": "Администрирование",
+      "settings": "Настройки"
+    },
+    "footer": {
+      "about": "О нас",
+      "contact": "Контакты",
+      "help": "Помощь",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования",
+      "cookies": "Настройки cookies"
+    },
+    "user_menu": {
+      "profile": "Ваш профиль",
+      "settings": "Настройки",
+      "help": "Помощь",
+      "sign_out": "Выйти"
+    },
+    "mobile_menu": {
+      "open": "Открыть меню",
+      "close": "Закрыть меню"
+    }
+  },
+  "dashboard": {
+    "title": "Панел�� управления",
+    "welcome": "С возвращением, {{name}}!",
+    "stats": {
+      "total_templates": "Всего шаблонов",
+      "active_templates": "Активные шаблоны",
+      "total_submissions": "Всего заявок",
+      "recent_activity": "Последняя активность"
+    },
+    "quick_actions": {
+      "create_template": "Создать шаблон",
+      "view_submissions": "Просмотр заявок",
+      "edit_profile": "Редактировать профиль",
+      "get_help": "Получить помощь"
+    }
+  },
+  "errors": {
+    "page_not_found": {
+      "title": "Страница не найдена",
+      "message": "Запрашиваемая страница не существует или была перемещена.",
+      "back_home": "Вернуться на главную"
+    },
+    "unauthorized": {
+      "title": "Доступ запрещен",
+      "message": "У вас нет прав для доступа к этой странице.",
+      "login": "Войти"
+    },
+    "server_error": {
+      "title": "Ошибка сервера",
+      "message": "Произошла ошибка на сервере. Пожалуйста, попробуйте позже.",
+      "retry": "Повторить попытку"
+    }
+  },
+  "profile": {
+    "title": "Настройки профиля",
+    "personal_info": {
+      "title": "Личная информация",
+      "name": "Имя",
+      "email": "Email",
+      "phone": "Телефон",
+      "location": "Местоположение",
+      "avatar": "Фото профиля",
+      "upload_avatar": "Загрузить фото"
+    },
+    "account": {
+      "title": "Настройки аккаунта",
+      "change_password": "Изменить пароль",
+      "language": "Язык",
+      "theme": "Тема",
+      "notifications": "Уведомления",
+      "two_factor": "Двухфакторная аутентификация",
+      "enable": "Включить",
+      "disable": "Отключить"
+    },
+    "preferences": {
+      "title": "Предпочтения",
+      "email_notifications": "Email уведомления",
+      "newsletter": "Подписка на рассылку",
+      "language_preference": "Предпочитаемый язык",
+      "theme_preference": "Предпочитаемая тема"
+    },
+    "security": {
+      "title": "Безопасность",
+      "current_password": "Текущий пароль",
+      "new_password": "Новый пароль",
+      "confirm_password": "Подтвердите пароль",
+      "save_changes": "Сохранить изменения"
+    },
+    "danger_zone": {
+      "title": "Опасная зона",
+      "delete_account": "Удалить аккаунт",
+      "delete_warning": "Это действие необратимо. Все ваши данные будут удалены.",
+      "confirm_delete": "Подтвердить удаление"
+    }
+  },
+  "cookies": {
+    "title": "Настройки файлов cookie",
+    "description": "Управляйте настройками файлов cookie. Некоторые файлы cookie необходимы для работы сайта и не могут быть отключены. Другие помогают нам улучшить ваш опыт использования через аналитику или предоставляют дополнительные функции.",
+    "preferences_saved": "Настройки cookie успешно сохранены",
+    "save_preferences": "Сохранить настройки",
+    "necessary": {
+      "title": "Необходимые cookie",
+      "description": "Требуются для правильной работы сайта. Не могут быть отключены.",
+      "toggle_label": "Переключить необходимые cookie"
+    },
+    "analytics": {
+      "title": "Аналитические cookie",
+      "description": "Помогают нам понять, как посетители взаимодействуют с сайтом.",
+      "toggle_label": "Переключить аналитические cookie"
+    },
+    "marketing": {
+      "title": "Маркетинговые cookie",
+      "description": "Используются для отслеживания посетителей на разных сайтах в маркетинговых целях.",
+      "toggle_label": "Переключить маркетинговые cookie"
+    },
+    "preferences": {
+      "title": "Cookie предпочтений",
+      "description": "Запоминают ваши настройки и предпочтения для лучшего опыта использования.",
+      "toggle_label": "Переключить cookie предпочтений"
+    }
+  },
+  "modals": {
+    "common": {
+      "close": "Закрыть",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "save": "Сохранить",
+      "delete": "Удалить"
+    },
+    "delete_confirmation": {
+      "title": "Подтверждение удаления",
+      "message": "Вы уверены, что хотите удалить это? Это действие нельзя отменить.",
+      "confirm": "Да, удалить",
+      "cancel": "Нет, оставить"
+    },
+    "unsaved_changes": {
+      "title": "Несохраненные изменения",
+      "message": "У вас есть несохраненные изменения. Вы уверены, что хотите уйти?",
+      "save": "Сохранить изменения",
+      "discard": "Отменить изменения",
+      "cancel": "Остаться здесь"
+    }
+  },
+  "templates": {
+    "title": "Шаблоны",
+    "create": {
+      "title": "Создать шаблон",
+      "name": "Название шаблона",
+      "description": "Описание",
+      "category": "Категория",
+      "visibility": "Видимость",
+      "submit": "Создать шаблон",
+      "cancel": "Отмена"
+    },
+    "edit": {
+      "title": "Редактировать шаблон",
+      "save": "Сохранить изменения",
+      "cancel": "Отменить изменения"
+    },
+    "list": {
+      "all": "Все шаблоны",
+      "my_templates": "Мои шаблоны",
+      "shared": "Общие шаблоны",
+      "favorites": "Избранное",
+      "no_templates": "Шаблоны не найдены",
+      "search": "Поиск шаблонов"
+    },
+    "filters": {
+      "category": "Категория",
+      "status": "Статус",
+      "date": "Дата",
+      "visibility": "Видимость",
+      "clear": "Сбросить фильтры"
+    },
+    "actions": {
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "share": "Поделиться",
+      "duplicate": "Дублировать",
+      "preview": "Предпросмотр",
+      "download": "Скачать",
+      "favorite": "В избранное",
+      "unfavorite": "Убрать из избранного"
+    },
+    "status": {
+      "draft": "Черновик",
+      "published": "Опубликован",
+      "archived": "В архиве"
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Это поле обязательно для заполнения",
+      "email": "Введите корректный email адрес",
+      "min_length": "Минимальная длина: {{count}} символов",
+      "max_length": "Максимальная длина: {{count}} символов",
+      "password_match": "Пароли должны совпадать",
+      "number": "Введите числовое значение",
+      "url": "Введите корректный URL",
+      "date": "Введите корректную дату",
+      "phone": "Введите корректный номер телефона",
+      "invalid_format": "Неверный формат"
+    },
+    "placeholders": {
+      "search": "Поиск...",
+      "select": "Выберите...",
+      "date": "Выберите дату",
+      "time": "Выберите время",
+      "enter_text": "Введите текст"
+    }
+  },
+  "notifications": {
+    "success": {
+      "changes_saved": "Изменения сохранены",
+      "item_created": "Элемент создан",
+      "item_updated": "Элемент обновлен",
+      "item_deleted": "Элемент удален",
+      "settings_updated": "Настройки обновлены"
+    },
+    "error": {
+      "generic": "Произошла ошибка. Попробуйте снова.",
+      "connection": "Ошибка подключения. Проверьте интернет-соединение.",
+      "not_found": "Запрашиваемый ресурс не найден",
+      "permission_denied": "Отказано в доступе",
+      "validation_error": "Проверьте правильность заполнения полей"
+    },
+    "info": {
+      "changes_pending": "У вас есть несохраненные изменения",
+      "session_expiring": "Ваша сессия скоро истечет",
+      "auto_save": "Автоматическое сохранение...",
+      "loading_data": "Загрузка данных..."
+    }
+  },
+  "admin": {
+    "title": "Панель администратора",
+    "dashboard": {
+      "title": "Обзор",
+      "total_users": "Всего пользователей",
+      "active_users": "Активные пользователи",
+      "pending_approvals": "Ожидают подтверждения",
+      "system_status": "Состояние системы"
+    },
+    "users": {
+      "title": "Управление пользователями",
+      "list": "Список пользователей",
+      "add": "Добавить пользователя",
+      "edit": "Редактировать пользователя",
+      "delete": "Удалить пользователя",
+      "bulk_actions": "Массовые действия",
+      "roles": {
+        "admin": "Администратор",
+        "user": "Пользователь",
+        "editor": "Редактор",
+        "viewer": "Наблюдатель"
+      },
+      "status": {
+        "active": "Активен",
+        "inactive": "Неактивен",
+        "suspended": "Заблокирован",
+        "pending": "Ожидает подтверждения"
+      }
+    },
+    "settings": {
+      "title": "Настройки системы",
+      "general": {
+        "title": "Общие настройки",
+        "site_name": "Название сайта",
+        "site_description": "Описание сайта",
+        "maintenance_mode": "Режим обслуживания"
+      },
+      "security": {
+        "title": "Безопасность",
+        "password_policy": "Политика паролей",
+        "session_timeout": "Тайм-аут сессии",
+        "two_factor": "Двухфакторная аутентификация"
+      },
+      "email": {
+        "title": "Настройки email",
+        "smtp_server": "SMTP сервер",
+        "smtp_port": "SMTP порт",
+        "sender_email": "Email отправителя"
+      }
+    },
+    "logs": {
+      "title": "Системные логи",
+      "activity": "Лог активности",
+      "error": "Лог ошибок",
+      "audit": "Аудит",
+      "download": "Скачать логи"
+    }
+  },
+  "api": {
+    "errors": {
+      "network": {
+        "offline": "Нет подключения к интернету",
+        "timeout": "Превышено время ожидания запроса",
+        "connection_error": "Ошибка подключения к серверу"
+      },
+      "auth": {
+        "invalid_credentials": "Неверный email или пароль",
+        "token_expired": "Сессия истекла, войдите снова",
+        "unauthorized": "Нет прав для выполнения действия",
+        "account_locked": "Аккаунт заблокирован",
+        "too_many_attempts": "Слишком много попыток. Попробуйте позже"
+      },
+      "validation": {
+        "required_field": "Поле {{field}} обязательно для заполнения",
+        "invalid_format": "Неверный формат {{field}}",
+        "already_exists": "{{field}} уже существует",
+        "not_found": "{{field}} не найден"
+      },
+      "server": {
+        "internal_error": "Внутренняя ошибка сервера",
+        "service_unavailable": "Сервис временно недоступен",
+        "maintenance": "Сервер на техническом обслуживании"
+      }
+    },
+    "success": {
+      "created": "{{resource}} успешно создан",
+      "updated": "{{resource}} успешно обновлен",
+      "deleted": "{{resource}} успешно удален"
+    }
+  },
+  "datetime": {
+    "formats": {
+      "short_date": "DD.MM.YYYY",
+      "long_date": "D MMMM YYYY",
+      "short_time": "HH:mm",
+      "long_time": "HH:mm:ss",
+      "short_datetime": "DD.MM.YYYY HH:mm",
+      "long_datetime": "D MMMM YYYY HH:mm:ss"
+    },
+    "calendar": {
+      "months": {
+        "january": "Январь",
+        "february": "Февраль",
+        "march": "Март",
+        "april": "Апрель",
+        "may": "Май",
+        "june": "Июнь",
+        "july": "Июль",
+        "august": "Август",
+        "september": "Сентябрь",
+        "october": "Октябрь",
+        "november": "Ноябрь",
+        "december": "Декабрь"
+      },
+      "weekdays": {
+        "monday": "Понедельник",
+        "tuesday": "Вторник",
+        "wednesday": "Среда",
+        "thursday": "Четверг",
+        "friday": "Пятница",
+        "saturday": "Суббота",
+        "sunday": "Воскресенье"
+      },
+      "short_weekdays": {
+        "mon": "Пн",
+        "tue": "Вт",
+        "wed": "Ср",
+        "thu": "Чт",
+        "fri": "Пт",
+        "sat": "Сб",
+        "sun": "Вс"
+      }
+    },
+    "relative": {
+      "today": "Сегодня",
+      "yesterday": "Вчера",
+      "tomorrow": "Завтра",
+      "just_now": "Только что",
+      "minutes_ago": "{{count}} минут назад",
+      "hours_ago": "{{count}} часов назад",
+      "days_ago": "{{count}} дней назад"
+    }
+  },
+  "accessibility": {
+    "navigation": {
+      "skip_to_main": "Перейти к основному содержанию",
+      "main_menu": "Главное меню",
+      "user_menu": "Меню пользователя",
+      "language_selector": "Выбор языка",
+      "theme_toggle": "Переключить тему"
+    },
+    "forms": {
+      "required": "обязательное поле",
+      "optional": "необязательное поле",
+      "error": "поле содержит ошибку",
+      "success": "поле заполнено правильно",
+      "password_strength": "Надежность пароля: {{strength}}",
+      "loading": "загрузка данных",
+      "submitting": "отправка формы"
+    },
+    "dialogs": {
+      "modal_opened": "Открыто модальное окно",
+      "modal_closed": "Модальное окно закрыто",
+      "close_modal": "Закрыть модальное окно",
+      "loading_content": "Загрузка содержимого"
+    },
+    "notifications": {
+      "new_notification": "Новое уведомление",
+      "close_notification": "Закрыть уведомление",
+      "error_message": "Сообщение об ошибке",
+      "success_message": "Сообщение об успешном действии"
+    },
+    "tables": {
+      "sort_ascending": "Сортировать по возрастанию",
+      "sort_descending": "Сортировать по убыванию",
+      "row_selected": "Строка выбрана",
+      "row_actions": "Действия для строки"
+    }
+  },
+  "email_templates": {
+    "common": {
+      "greeting": "Здравствуйте, {{name}}!",
+      "signature": "С уважением,\nКоманда {{appName}}",
+      "footer": {
+        "contact": "Если у вас есть вопросы, свяжитесь с нами",
+        "unsubscribe": "Отписаться от рассылки",
+        "preferences": "Настройки уведомлений"
+      }
+    },
+    "auth": {
+      "verify_email": {
+        "subject": "Подтвердите ваш email адрес",
+        "heading": "Подтверждение email адреса",
+        "body": "Для завершения регистрации, пожалуйста, подтвердите ваш email адрес, нажав на кнопку ниже:",
+        "action": "Подтвердить email",
+        "expiry": "Ссылка действительна в течение {{hours}} часов"
+      },
+      "reset_password": {
+        "subject": "Сброс пароля",
+        "heading": "Запрос на сброс пароля",
+        "body": "Мы получили запрос на сброс пароля для вашей учетной записи. Если это были не вы, проигнорируйте это письмо.",
+        "action": "Сбросить пароль",
+        "expiry": "Ссылка действительна в течение {{minutes}} минут"
+      },
+      "welcome": {
+        "subject": "Добро пожаловать в {{appName}}",
+        "heading": "Добро пожаловать!",
+        "body": "Спасибо за регистрацию. Мы рады видеть вас в нашем сообществе.",
+        "next_steps": "Что дальше?",
+        "complete_profile": "Заполните ваш профиль",
+        "explore_features": "Изучите возможности"
+      }
+    },
+    "notifications": {
+      "password_changed": {
+        "subject": "Пароль был изменен",
+        "heading": "Изменение пароля",
+        "body": "Пароль для вашей учетной записи был успешно изменен. Если это были не вы, немедленно свяжитесь с нами."
+      },
+      "account_locked": {
+        "subject": "Учетная запись заблокирована",
+        "heading": "Блокировка учетной записи",
+        "body": "Ваша учетная запись была временно заблокирована из-за множества неудачных попыток входа. Пожалуйста, подождите {{minutes}} минут перед следующей попыткой."
+      }
+    }
+  },
+  "help": {
+    "getting_started": {
+      "title": "Начало работы",
+      "description": "Узнайте, как начать работу с нашим приложением",
+      "sections": {
+        "account_setup": "Настройка аккаунта",
+        "first_steps": "Первые шаги",
+        "basic_features": "Основные функции"
+      }
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы",
+      "search": "Поиск по вопросам",
+      "no_results": "Вопросы не найдены",
+      "categories": {
+        "general": "Общие вопросы",
+        "account": "Аккаунт и безопасность",
+        "features": "Функции и возможности",
+        "billing": "Оплата и подписка"
+      }
+    },
+    "support": {
+      "title": "Поддержка",
+      "contact": {
+        "title": "Связаться с нами",
+        "email": "Email поддержки",
+        "phone": "Телефон поддержки",
+        "hours": "Часы работы",
+        "response_time": "Среднее время ответа: {{time}}"
+      },
+      "ticket": {
+        "create": "Создать тикет",
+        "subject": "Тема",
+        "description": "Описание проблемы",
+        "priority": "Приоритет",
+        "submit": "Отправить"
+      }
+    },
+    "tooltips": {
+      "required_field": "Это поле обязательно для заполнения",
+      "password_requirements": "Пароль должен содержать минимум 8 символов",
+      "drag_and_drop": "Перетащите файлы сюда",
+      "click_to_edit": "Нажмите для редактирования"
+    }
+  },
+  "theme": {
+    "settings": {
+      "title": "Настройки темы",
+      "mode": {
+        "light": "Светлая тема",
+        "dark": "Тёмная тема",
+        "system": "Системная тема"
+      },
+      "colors": {
+        "primary": "Основной цвет",
+        "secondary": "Дополнительный цвет",
+        "accent": "Акцентный цвет",
+        "background": "Фон",
+        "text": "Текст"
+      },
+      "contrast": {
+        "title": "Контрастность",
+        "high": "Высокая",
+        "normal": "Нормальная",
+        "low": "Низкая"
+      },
+      "font": {
+        "size": "Размер шрифта",
+        "family": "Шрифт"
+      }
+    },
+    "colors": {
+      "light": {
+        "background": "#FFFFFF",
+        "text": "#1A1A1A",
+        "primary": "#0066CC",
+        "secondary": "#4D4D4D",
+        "accent": "#FF6B6B",
+        "border": "#E5E5E5",
+        "hover": "#F5F5F5",
+        "disabled": "#999999"
+      },
+      "dark": {
+        "background": "#1A1A1A",
+        "text": "#FFFFFF",
+        "primary": "#3399FF",
+        "secondary": "#CCCCCC",
+        "accent": "#FF8585",
+        "border": "#333333",
+        "hover": "#2A2A2A",
+        "disabled": "#666666"
+      }
+    }
+  }
+}
+

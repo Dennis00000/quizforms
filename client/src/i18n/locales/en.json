@@ -1,0 +1,409 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "actions": "Actions",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email_label": "Email",
+      "password_label": "Password",
+      "submit": "Sign In",
+      "forgot_password": "Forgot Password?",
+      "no_account": "Don't have an account?",
+      "sign_up": "Sign Up"
+    },
+    "register": {
+      "title": "Register",
+      "name_label": "Name",
+      "email_label": "Email",
+      "password_label": "Password",
+      "confirm_password_label": "Confirm Password",
+      "submit": "Create Account",
+      "have_account": "Already have an account?",
+      "sign_in": "Sign In"
+    },
+    "forgot_password": {
+      "title": "Forgot Password",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "email_label": "Email",
+      "submit": "Send Reset Link"
+    },
+    "reset_password": {
+      "title": "Reset Password",
+      "new_password_label": "New Password",
+      "confirm_password_label": "Confirm New Password",
+      "submit": "Reset Password"
+    },
+    "success": {
+      "logged_in": "Logged in successfully",
+      "registered": "Registration successful",
+      "password_reset": "Password reset email sent",
+      "password_updated": "Password updated successfully",
+      "logged_out": "Logged out successfully"
+    },
+    "errors": {
+      "login_failed": "Login failed. Please check your credentials and try again.",
+      "registration_failed": "Registration failed. Please try again.",
+      "failed_to_load_user": "Failed to load user information",
+      "invalid_email": "Please enter a valid email address",
+      "invalid_password": "Password must be at least 8 characters long",
+      "passwords_dont_match": "Passwords do not match",
+      "email_already_exists": "An account with this email already exists",
+      "reset_failed": "Password reset failed. Please try again.",
+      "unauthorized": "You are not authorized to access this resource"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences. Some cookies are necessary for the website to function and cannot be disabled. Others help us improve your experience through analytics or provide additional features.",
+    "preferences_saved": "Cookie preferences saved successfully",
+    "save_preferences": "Save Preferences",
+    "necessary": {
+      "title": "Necessary Cookies",
+      "description": "Required for the website to function properly. Cannot be disabled.",
+      "toggle_label": "Toggle necessary cookies"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with our website.",
+      "toggle_label": "Toggle analytics cookies"
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites for marketing purposes.",
+      "toggle_label": "Toggle marketing cookies"
+    },
+    "preferences": {
+      "title": "Preferences Cookies",
+      "description": "Remember your settings and preferences for a better experience.",
+      "toggle_label": "Toggle preferences cookies"
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "templates": "Templates",
+      "submissions": "Submissions",
+      "profile": "Profile",
+      "admin": "Admin",
+      "settings": "Settings"
+    },
+    "footer": {
+      "about": "About Us",
+      "contact": "Contact",
+      "help": "Help",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Settings"
+    },
+    "user_menu": {
+      "profile": "Your Profile",
+      "settings": "Settings",
+      "help": "Help",
+      "sign_out": "Sign Out"
+    },
+    "mobile_menu": {
+      "open": "Open main menu",
+      "close": "Close main menu"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {{name}}!",
+    "stats": {
+      "total_templates": "Total Templates",
+      "active_templates": "Active Templates",
+      "total_submissions": "Total Submissions",
+      "recent_activity": "Recent Activity"
+    },
+    "quick_actions": {
+      "create_template": "Create Template",
+      "view_submissions": "View Submissions",
+      "edit_profile": "Edit Profile",
+      "get_help": "Get Help"
+    }
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "personal_info": {
+      "title": "Personal Information",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "account": {
+      "title": "Account Settings",
+      "change_password": "Change Password",
+      "language": "Language",
+      "theme": "Theme",
+      "notifications": "Notifications"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "email_notifications": "Email Notifications",
+      "newsletter": "Newsletter Subscription",
+      "marketing": "Marketing Communications"
+    },
+    "buttons": {
+      "save_changes": "Save Changes",
+      "cancel": "Cancel",
+      "delete_account": "Delete Account"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "create": {
+      "title": "Create Template",
+      "name": "Template Name",
+      "description": "Description",
+      "category": "Category",
+      "visibility": "Visibility"
+    },
+    "list": {
+      "all": "All Templates",
+      "my_templates": "My Templates",
+      "shared": "Shared Templates",
+      "favorites": "Favorites"
+    },
+    "actions": {
+      "edit": "Edit Template",
+      "delete": "Delete Template",
+      "share": "Share Template",
+      "duplicate": "Duplicate Template",
+      "preview": "Preview"
+    }
+  },
+  "errors": {
+    "page_not_found": {
+      "title": "Page Not Found",
+      "message": "The page you're looking for doesn't exist or has been moved.",
+      "back_home": "Back to Home"
+    },
+    "unauthorized": {
+      "title": "Unauthorized Access",
+      "message": "You don't have permission to access this page.",
+      "login": "Log In"
+    },
+    "server_error": {
+      "title": "Server Error",
+      "message": "Something went wrong on our end. Please try again later.",
+      "retry": "Try Again"
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "min_length": "Must be at least {{count}} characters",
+      "max_length": "Must be no more than {{count}} characters",
+      "password_match": "Passwords must match",
+      "number": "Please enter a valid number",
+      "url": "Please enter a valid URL",
+      "date": "Please enter a valid date"
+    },
+    "placeholders": {
+      "search": "Search...",
+      "select": "Select an option",
+      "date": "Select a date",
+      "time": "Select time"
+    },
+    "buttons": {
+      "submit": "Submit",
+      "reset": "Reset",
+      "clear": "Clear",
+      "upload": "Upload File",
+      "remove": "Remove"
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "users": {
+      "title": "User Management",
+      "list": "All Users",
+      "add": "Add User",
+      "edit": "Edit User",
+      "delete": "Delete User",
+      "roles": {
+        "admin": "Administrator",
+        "user": "User",
+        "editor": "Editor",
+        "viewer": "Viewer"
+      }
+    },
+    "templates": {
+      "title": "Template Management",
+      "categories": "Categories",
+      "permissions": "Permissions",
+      "settings": "Template Settings"
+    },
+    "settings": {
+      "title": "System Settings",
+      "general": "General Settings",
+      "security": "Security Settings",
+      "api": "API Settings",
+      "backup": "Backup & Restore"
+    },
+    "logs": {
+      "title": "System Logs",
+      "activity": "Activity Log",
+      "error": "Error Log",
+      "audit": "Audit Trail"
+    },
+    "stats": {
+      "title": "Statistics",
+      "users": "User Stats",
+      "templates": "Template Stats",
+      "system": "System Stats"
+    }
+  },
+  "notifications": {
+    "success": {
+      "saved": "Changes saved successfully",
+      "deleted": "Item deleted successfully",
+      "updated": "Updated successfully",
+      "created": "Created successfully",
+      "uploaded": "File uploaded successfully",
+      "sent": "Message sent successfully"
+    },
+    "error": {
+      "generic": "An error occurred. Please try again.",
+      "network": "Network error. Please check your connection.",
+      "permission": "You don't have permission to perform this action.",
+      "validation": "Please check the form for errors.",
+      "not_found": "The requested resource was not found.",
+      "server": "Server error. Please try again later."
+    },
+    "warning": {
+      "unsaved": "You have unsaved changes",
+      "delete": "Are you sure you want to delete this?",
+      "logout": "Are you sure you want to log out?",
+      "required_fields": "Please fill in all required fields"
+    },
+    "info": {
+      "loading": "Loading...",
+      "processing": "Processing your request...",
+      "uploading": "Uploading file...",
+      "no_results": "No results found",
+      "session_expired": "Your session has expired. Please log in again."
+    }
+  },
+  "template_editor": {
+    "title": "Template Editor",
+    "sections": {
+      "design": "Design",
+      "settings": "Settings",
+      "preview": "Preview",
+      "code": "Code"
+    },
+    "toolbar": {
+      "save": "Save",
+      "undo": "Undo",
+      "redo": "Redo",
+      "preview": "Preview",
+      "publish": "Publish",
+      "export": "Export"
+    },
+    "components": {
+      "text": "Text",
+      "image": "Image",
+      "button": "Button",
+      "form": "Form",
+      "layout": "Layout",
+      "media": "Media"
+    },
+    "properties": {
+      "general": "General",
+      "style": "Style",
+      "advanced": "Advanced",
+      "validation": "Validation"
+    },
+    "settings": {
+      "name": "Template Name",
+      "description": "Description",
+      "category": "Category",
+      "tags": "Tags",
+      "visibility": "Visibility",
+      "access": "Access Control"
+    }
+  },
+  "modals": {
+    "common": {
+      "close": "Close",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "save": "Save",
+      "delete": "Delete"
+    },
+    "delete_confirmation": {
+      "title": "Confirm Deletion",
+      "message": "Are you sure you want to delete this? This action cannot be undone.",
+      "confirm": "Yes, delete",
+      "cancel": "No, keep it"
+    },
+    "unsaved_changes": {
+      "title": "Unsaved Changes",
+      "message": "You have unsaved changes. Are you sure you want to leave?",
+      "save": "Save changes",
+      "discard": "Discard changes",
+      "cancel": "Stay here"
+    },
+    "share": {
+      "title": "Share Template",
+      "link": "Share Link",
+      "copy": "Copy Link",
+      "permissions": "Permissions",
+      "success": "Link copied to clipboard"
+    }
+  },
+  "help": {
+    "getting_started": {
+      "title": "Getting Started",
+      "description": "Learn how to use our platform",
+      "sections": {
+        "overview": "Platform Overview",
+        "first_steps": "First Steps",
+        "key_features": "Key Features"
+      }
+    },
+    "templates": {
+      "title": "Working with Templates",
+      "sections": {
+        "create": "Creating Templates",
+        "edit": "Editing Templates",
+        "share": "Sharing Templates",
+        "best_practices": "Best Practices"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "contact_support": "Contact Support"
+    },
+    "tooltips": {
+      "save": "Save your changes",
+      "preview": "Preview your template",
+      "publish": "Make your template public",
+      "export": "Export template to different formats"
+    }
+  }
+}
+

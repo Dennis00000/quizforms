@@ -1,0 +1,637 @@
+{
+  "common": {
+    "loading": "Kraunama...",
+    "error": "Klaida",
+    "success": "Pavyko",
+    "save": "Išsaugoti",
+    "cancel": "Atšaukti",
+    "delete": "Ištrinti",
+    "edit": "Redaguoti",
+    "create": "Sukurti",
+    "submit": "Pateikti",
+    "back": "Atgal",
+    "next": "Kitas",
+    "previous": "Ankstesnis",
+    "search": "Ieškoti",
+    "filter": "Filtruoti",
+    "sort": "Rūšiuoti",
+    "actions": "Veiksmai",
+    "confirm": "Patvirtinti",
+    "yes": "Taip",
+    "no": "Ne"
+  },
+  "auth": {
+    "login": {
+      "title": "Prisijungimas",
+      "email_label": "El. paštas",
+      "password_label": "Slaptažodis",
+      "submit": "Prisijungti",
+      "forgot_password": "Pamiršote slaptažodį?",
+      "no_account": "Neturite paskyros?",
+      "sign_up": "Registruotis"
+    },
+    "register": {
+      "title": "Registracija",
+      "name_label": "Vardas",
+      "email_label": "El. paštas",
+      "password_label": "Slaptažodis",
+      "confirm_password_label": "Pakartokite slaptažodį",
+      "submit": "Sukurti paskyrą",
+      "have_account": "Jau turite paskyrą?",
+      "sign_in": "Prisijungti"
+    },
+    "forgot_password": {
+      "title": "Slaptažodžio atkūrimas",
+      "description": "Įveskite savo el. paštą ir mes atsiųsime jums slaptažodžio atkūrimo nuorodą.",
+      "email_label": "El. paštas",
+      "submit": "Siųsti nuorodą"
+    },
+    "reset_password": {
+      "title": "Slaptažodžio keitimas",
+      "new_password_label": "Naujas slaptažodis",
+      "confirm_password_label": "Pakartokite naują slaptažodį",
+      "submit": "Pakeisti slaptažodį"
+    },
+    "success": {
+      "logged_in": "Sėkmingai prisijungėte",
+      "registered": "Registracija sėkminga",
+      "password_reset": "Slaptažodžio atkūrimo nuoroda išsiųsta",
+      "password_updated": "Slaptažodis sėkmingai pakeistas",
+      "logged_out": "Sėkmingai atsijungėte"
+    },
+    "errors": {
+      "login_failed": "Prisijungimas nepavyko. Patikrinkite prisijungimo duomenis ir bandykite dar kartą.",
+      "registration_failed": "Registracija nepavyko. Bandykite dar kartą.",
+      "failed_to_load_user": "Nepavyko įkelti vartotojo informacijos",
+      "invalid_email": "Įveskite teisingą el. pašto adresą",
+      "invalid_password": "Slaptažodis turi būti bent 8 simbolių ilgio",
+      "passwords_dont_match": "Slaptažodžiai nesutampa",
+      "email_already_exists": "Vartotojas su tokiu el. paštu jau egzistuoja",
+      "reset_failed": "Slaptažodžio atkūrimas nepavyko. Bandykite dar kartą.",
+      "unauthorized": "Neturite teisių pasiekti šį resursą"
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Pradžia",
+      "dashboard": "Valdymo skydelis",
+      "templates": "Šablonai",
+      "submissions": "Pateikti dokumentai",
+      "profile": "Profilis",
+      "admin": "Administravimas",
+      "settings": "Nustatymai"
+    },
+    "footer": {
+      "about": "Apie mus",
+      "contact": "Kontaktai",
+      "help": "Pagalba",
+      "privacy": "Privatumo politika",
+      "terms": "Naudojimo sąlygos",
+      "cookies": "Slapukų nustatymai"
+    },
+    "user_menu": {
+      "profile": "Jūsų profilis",
+      "settings": "Nustatymai",
+      "help": "Pagalba",
+      "sign_out": "Atsijungti"
+    },
+    "mobile_menu": {
+      "open": "Atidaryti meniu",
+      "close": "Uždaryti meniu"
+    }
+  },
+  "dashboard": {
+    "title": "Valdymo skydelis",
+    "welcome": "Sveiki sugrįžę, {{name}}!",
+    "stats": {
+      "total_templates": "Viso šablonų",
+      "active_templates": "Aktyvūs šablonai",
+      "total_submissions": "Viso pateikimų",
+      "recent_activity": "Naujausi veiksmai"
+    },
+    "quick_actions": {
+      "create_template": "Kurti šabloną",
+      "view_submissions": "Peržiūrėti pateikimus",
+      "edit_profile": "Redaguoti profilį",
+      "get_help": "Gauti pagalbą"
+    }
+  },
+  "errors": {
+    "page_not_found": {
+      "title": "Puslapis nerastas",
+      "message": "Puslapis, kurio ieškote, neegzistuoja arba buvo perkeltas.",
+      "back_home": "Grįžti į pradžią"
+    },
+    "unauthorized": {
+      "title": "Prieiga uždrausta",
+      "message": "Jūs neturite teisių pasiekti šį puslapį.",
+      "login": "Prisijungti"
+    },
+    "server_error": {
+      "title": "Serverio klaida",
+      "message": "Įvyko serverio klaida. Prašome bandyti vėliau.",
+      "retry": "Bandyti dar kartą"
+    }
+  },
+  "profile": {
+    "title": "Profilio nustatymai",
+    "personal_info": {
+      "title": "Asmeninė informacija",
+      "name": "Vardas",
+      "email": "El. paštas",
+      "phone": "Telefonas",
+      "location": "Vieta",
+      "avatar": "Profilio nuotrauka",
+      "upload_avatar": "Įkelti nuotrauką"
+    },
+    "account": {
+      "title": "Paskyros nustatymai",
+      "change_password": "Keisti slaptažodį",
+      "language": "Kalba",
+      "theme": "Tema",
+      "notifications": "Pranešimai",
+      "two_factor": "Dviejų faktorių autentifikacija",
+      "enable": "Įjungti",
+      "disable": "Išjungti"
+    },
+    "preferences": {
+      "title": "Nuostatos",
+      "email_notifications": "El. pašto pranešimai",
+      "newsletter": "Naujienlaiškis",
+      "language_preference": "Pageidaujama kalba",
+      "theme_preference": "Pageidaujama tema"
+    },
+    "security": {
+      "title": "Saugumas",
+      "current_password": "Dabartinis slaptažodis",
+      "new_password": "Naujas slaptažodis",
+      "confirm_password": "Patvirtinti slaptažodį",
+      "save_changes": "Išsaugoti pakeitimus"
+    },
+    "danger_zone": {
+      "title": "Pavojinga zona",
+      "delete_account": "Ištrinti paskyrą",
+      "delete_warning": "Šis veiksmas negrįžtamas. Visi jūsų duomenys bus ištrinti.",
+      "confirm_delete": "Patvirtinti ištrynimą"
+    }
+  },
+  "cookies": {
+    "title": "Slapukų nustatymai",
+    "description": "Valdykite slapukų nustatymus. Kai kurie slapukai yra būtini svetainės veikimui ir negali būti išjungti. Kiti padeda mums pagerinti jūsų patirtį per analitiką arba suteikia papildomų funkcijų.",
+    "preferences_saved": "Slapukų nustatymai sėkmingai išsaugoti",
+    "save_preferences": "Išsaugoti nustatymus",
+    "necessary": {
+      "title": "Būtini slapukai",
+      "description": "Reikalingi tinkamam svetainės veikimui. Negali būti išjungti.",
+      "toggle_label": "Perjungti būtinus slapukus"
+    },
+    "analytics": {
+      "title": "Analitiniai slapukai",
+      "description": "Padeda mums suprasti, kaip lankytojai naudojasi svetaine.",
+      "toggle_label": "Perjungti analitinius slapukus"
+    },
+    "marketing": {
+      "title": "Rinkodaros slapukai",
+      "description": "Naudojami sekti lankytojus skirtingose svetainėse rinkodaros tikslais.",
+      "toggle_label": "Perjungti rinkodaros slapukus"
+    },
+    "preferences": {
+      "title": "Nuostatų slapukai",
+      "description": "Įsimena jūsų nustatymus ir nuostatas geresnei patirčiai.",
+      "toggle_label": "Perjungti nuostatų slapukus"
+    }
+  },
+  "modals": {
+    "common": {
+      "close": "Uždaryti",
+      "cancel": "Atšaukti",
+      "confirm": "Patvirtinti",
+      "save": "Išsaugoti",
+      "delete": "Ištrinti"
+    },
+    "delete_confirmation": {
+      "title": "Patvirtinti ištrynimą",
+      "message": "Ar tikrai norite ištrinti? Šio veiksmo negalėsite atšaukti.",
+      "confirm": "Taip, ištrinti",
+      "cancel": "Ne, palikti"
+    },
+    "unsaved_changes": {
+      "title": "Neišsaugoti pakeitimai",
+      "message": "Turite neišsaugotų pakeitimų. Ar tikrai norite išeiti?",
+      "save": "Išsaugoti pakeitimus",
+      "discard": "Atmesti pakeitimus",
+      "cancel": "Likti čia"
+    }
+  },
+  "templates": {
+    "title": "Šablonai",
+    "create": {
+      "title": "Kurti šabloną",
+      "name": "Šablono pavadinimas",
+      "description": "Aprašymas",
+      "category": "Kategorija",
+      "visibility": "Matomumas",
+      "submit": "Sukurti šabloną",
+      "cancel": "Atšaukti"
+    },
+    "edit": {
+      "title": "Redaguoti šabloną",
+      "save": "Išsaugoti pakeitimus",
+      "cancel": "Atšaukti pakeitimus"
+    },
+    "list": {
+      "all": "Visi šablonai",
+      "my_templates": "Mano šablonai",
+      "shared": "Bendrinami šablonai",
+      "favorites": "Mėgstami",
+      "no_templates": "Šablonų nerasta",
+      "search": "Ieškoti šablonų"
+    },
+    "filters": {
+      "category": "Kategorija",
+      "status": "Būsena",
+      "date": "Data",
+      "visibility": "Matomumas",
+      "clear": "Išvalyti filtrus"
+    },
+    "actions": {
+      "edit": "Redaguoti",
+      "delete": "Ištrinti",
+      "share": "Dalintis",
+      "duplicate": "Dubliuoti",
+      "preview": "Peržiūrėti",
+      "download": "Atsisiųsti",
+      "favorite": "Pridėti į mėgstamus",
+      "unfavorite": "Pašalinti iš mėgstamų"
+    },
+    "status": {
+      "draft": "Juodraštis",
+      "published": "Paskelbtas",
+      "archived": "Archyvuotas"
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Šis laukas yra privalomas",
+      "email": "Įveskite teisingą el. pašto adresą",
+      "min_length": "Minimalus ilgis: {{count}} simbolių",
+      "max_length": "Maksimalus ilgis: {{count}} simbolių",
+      "password_match": "Slaptažodžiai turi sutapti",
+      "number": "Įveskite skaičių",
+      "url": "Įveskite teisingą URL",
+      "date": "Įveskite teisingą datą",
+      "phone": "Įveskite teisingą telefono numerį",
+      "invalid_format": "Neteisingas formatas"
+    },
+    "placeholders": {
+      "search": "Ieškoti...",
+      "select": "Pasirinkite...",
+      "date": "Pasirinkite datą",
+      "time": "Pasirinkite laiką",
+      "enter_text": "Įveskite tekstą"
+    }
+  },
+  "notifications": {
+    "success": {
+      "changes_saved": "Pakeitimai išsaugoti",
+      "item_created": "Elementas sukurtas",
+      "item_updated": "Elementas atnaujintas",
+      "item_deleted": "Elementas ištrintas",
+      "settings_updated": "Nustatymai atnaujinti"
+    },
+    "error": {
+      "generic": "Įvyko klaida. Bandykite dar kartą.",
+      "connection": "Ryšio klaida. Patikrinkite interneto ryšį.",
+      "not_found": "Ieškomas resursas nerastas",
+      "permission_denied": "Prieiga uždrausta",
+      "validation_error": "Patikrinkite įvestus duomenis"
+    },
+    "info": {
+      "changes_pending": "Turite neišsaugotų pakeitimų",
+      "session_expiring": "Jūsų sesija greitai baigsis",
+      "auto_save": "Automatinis išsaugojimas...",
+      "loading_data": "Kraunami duomenys..."
+    }
+  },
+  "admin": {
+    "title": "Administratoriaus skydelis",
+    "dashboard": {
+      "title": "Apžvalga",
+      "total_users": "Viso vartotojų",
+      "active_users": "Aktyvūs vartotojai",
+      "pending_approvals": "Laukia patvirtinimo",
+      "system_status": "Sistemos būsena"
+    },
+    "users": {
+      "title": "Vartotojų valdymas",
+      "list": "Vartotojų sąrašas",
+      "add": "Pridėti vartotoją",
+      "edit": "Redaguoti vartotoją",
+      "delete": "Ištrinti vartotoją",
+      "bulk_actions": "Masiniai veiksmai",
+      "roles": {
+        "admin": "Administratorius",
+        "user": "Vartotojas",
+        "editor": "Redaktorius",
+        "viewer": "Stebėtojas"
+      },
+      "status": {
+        "active": "Aktyvus",
+        "inactive": "Neaktyvus",
+        "suspended": "Sustabdytas",
+        "pending": "Laukiantis"
+      }
+    },
+    "settings": {
+      "title": "Sistemos nustatymai",
+      "general": {
+        "title": "Bendri nustatymai",
+        "site_name": "Svetainės pavadinimas",
+        "site_description": "Svetainės aprašymas",
+        "maintenance_mode": "Priežiūros režimas"
+      },
+      "security": {
+        "title": "Saugumas",
+        "password_policy": "Slaptažodžių politika",
+        "session_timeout": "Sesijos laikas",
+        "two_factor": "Dviejų faktorių autentifikacija"
+      },
+      "email": {
+        "title": "El. pašto nustatymai",
+        "smtp_server": "SMTP serveris",
+        "smtp_port": "SMTP prievadas",
+        "sender_email": "Siuntėjo el. paštas"
+      }
+    },
+    "logs": {
+      "title": "Sistemos žurnalai",
+      "activity": "Veiklos žurnalas",
+      "error": "Klaidų žurnalas",
+      "audit": "Auditas",
+      "download": "Atsisiųsti žurnalus"
+    }
+  },
+  "api": {
+    "errors": {
+      "network": {
+        "offline": "Nėra interneto ryšio",
+        "timeout": "Užklausa užtruko per ilgai",
+        "connection_error": "Nepavyko prisijungti prie serverio"
+      },
+      "auth": {
+        "invalid_credentials": "Neteisingas el. paštas arba slaptažodis",
+        "token_expired": "Sesija baigėsi, prisijunkite iš naujo",
+        "unauthorized": "Neturite teisių atlikti šį veiksmą",
+        "account_locked": "Paskyra užblokuota",
+        "too_many_attempts": "Per daug bandymų. Pabandykite vėliau"
+      },
+      "validation": {
+        "required_field": "Laukas {{field}} yra privalomas",
+        "invalid_format": "Neteisingas {{field}} formatas",
+        "already_exists": "{{field}} jau egzistuoja",
+        "not_found": "{{field}} nerastas"
+      },
+      "server": {
+        "internal_error": "Vidinė serverio klaida",
+        "service_unavailable": "Paslauga laikinai nepasiekiama",
+        "maintenance": "Vykdomi serverio priežiūros darbai"
+      }
+    },
+    "success": {
+      "created": "{{resource}} sėkmingai sukurtas",
+      "updated": "{{resource}} sėkmingai atnaujintas",
+      "deleted": "{{resource}} sėkmingai ištrintas"
+    }
+  },
+  "datetime": {
+    "formats": {
+      "short_date": "YYYY-MM-DD",
+      "long_date": "YYYY m. MMMM D d.",
+      "short_time": "HH:mm",
+      "long_time": "HH:mm:ss",
+      "short_datetime": "YYYY-MM-DD HH:mm",
+      "long_datetime": "YYYY m. MMMM D d. HH:mm:ss"
+    },
+    "calendar": {
+      "months": {
+        "january": "Sausis",
+        "february": "Vasaris",
+        "march": "Kovas",
+        "april": "Balandis",
+        "may": "Gegužė",
+        "june": "Birželis",
+        "july": "Liepa",
+        "august": "Rugpjūtis",
+        "september": "Rugsėjis",
+        "october": "Spalis",
+        "november": "Lapkritis",
+        "december": "Gruodis"
+      },
+      "weekdays": {
+        "monday": "Pirmadienis",
+        "tuesday": "Antradienis",
+        "wednesday": "Trečiadienis",
+        "thursday": "Ketvirtadienis",
+        "friday": "Penktadienis",
+        "saturday": "Šeštadienis",
+        "sunday": "Sekmadienis"
+      },
+      "short_weekdays": {
+        "mon": "Pr",
+        "tue": "An",
+        "wed": "Tr",
+        "thu": "Kt",
+        "fri": "Pn",
+        "sat": "Št",
+        "sun": "Sk"
+      }
+    },
+    "relative": {
+      "today": "Šiandien",
+      "yesterday": "Vakar",
+      "tomorrow": "Rytoj",
+      "just_now": "Ką tik",
+      "minutes_ago": "prieš {{count}} min.",
+      "hours_ago": "prieš {{count}} val.",
+      "days_ago": "prieš {{count}} d."
+    }
+  },
+  "accessibility": {
+    "navigation": {
+      "skip_to_main": "Pereiti į pagrindinį turinį",
+      "main_menu": "Pagrindinis meniu",
+      "user_menu": "Vartotojo meniu",
+      "language_selector": "Kalbos pasirinkimas",
+      "theme_toggle": "Perjungti temą"
+    },
+    "forms": {
+      "required": "privalomas laukas",
+      "optional": "neprivalomas laukas",
+      "error": "lauke yra klaida",
+      "success": "laukas užpildytas teisingai",
+      "password_strength": "Slaptažodžio stiprumas: {{strength}}",
+      "loading": "kraunami duomenys",
+      "submitting": "forma siunčiama"
+    },
+    "dialogs": {
+      "modal_opened": "Modalinis langas atidarytas",
+      "modal_closed": "Modalinis langas uždarytas",
+      "close_modal": "Uždaryti modalinį langą",
+      "loading_content": "Kraunamas turinys"
+    },
+    "notifications": {
+      "new_notification": "Naujas pranešimas",
+      "close_notification": "Uždaryti pranešimą",
+      "error_message": "Klaidos pranešimas",
+      "success_message": "Sėkmės pranešimas"
+    },
+    "tables": {
+      "sort_ascending": "Rūšiuoti didėjimo tvarka",
+      "sort_descending": "Rūšiuoti mažėjimo tvarka",
+      "row_selected": "Eilutė pasirinkta",
+      "row_actions": "Eilutės veiksmai"
+    }
+  },
+  "email_templates": {
+    "common": {
+      "greeting": "Sveiki, {{name}}!",
+      "signature": "Pagarbiai,\n{{appName}} komanda",
+      "footer": {
+        "contact": "Jei turite klausimų, susisiekite su mumis",
+        "unsubscribe": "Atsisakyti naujienlaiškio",
+        "preferences": "Pranešimų nustatymai"
+      }
+    },
+    "auth": {
+      "verify_email": {
+        "subject": "Patvirtinkite savo el. pašto adresą",
+        "heading": "El. pašto patvirtinimas",
+        "body": "Norėdami užbaigti registraciją, patvirtinkite savo el. pašto adresą paspausdami mygtuką žemiau:",
+        "action": "Patvirtinti el. paštą",
+        "expiry": "Nuoroda galioja {{hours}} val."
+      },
+      "reset_password": {
+        "subject": "Slaptažodžio atkūrimas",
+        "heading": "Slaptažodžio atkūrimo užklausa",
+        "body": "Gavome užklausą atkurti jūsų paskyros slaptažodį. Jei tai buvote ne jūs, ignoruokite šį laišką.",
+        "action": "Atkurti slaptažodį",
+        "expiry": "Nuoroda galioja {{minutes}} min."
+      },
+      "welcome": {
+        "subject": "Sveiki atvykę į {{appName}}",
+        "heading": "Sveiki atvykę!",
+        "body": "Dėkojame už registraciją. Džiaugiamės, kad prisijungėte prie mūsų bendruomenės.",
+        "next_steps": "Kas toliau?",
+        "complete_profile": "Užpildykite savo profilį",
+        "explore_features": "Susipažinkite su galimybėmis"
+      }
+    },
+    "notifications": {
+      "password_changed": {
+        "subject": "Slaptažodis pakeistas",
+        "heading": "Slaptažodžio keitimas",
+        "body": "Jūsų paskyros slaptažodis buvo sėkmingai pakeistas. Jei tai buvote ne jūs, nedelsiant susisiekite su mumis."
+      },
+      "account_locked": {
+        "subject": "Paskyra užblokuota",
+        "heading": "Paskyros blokavimas",
+        "body": "Jūsų paskyra buvo laikinai užblokuota dėl per didelio nepavykusių prisijungimų skaičiaus. Palaukite {{minutes}} min. prieš bandydami dar kartą."
+      }
+    }
+  },
+  "help": {
+    "getting_started": {
+      "title": "Darbo pradžia",
+      "description": "Sužinokite, kaip pradėti naudotis mūsų programa",
+      "sections": {
+        "account_setup": "Paskyros nustatymas",
+        "first_steps": "Pirmieji žingsniai",
+        "basic_features": "Pagrindinės funkcijos"
+      }
+    },
+    "faq": {
+      "title": "Dažniausiai užduodami klausimai",
+      "search": "Ieškoti klausimų",
+      "no_results": "Klausimų nerasta",
+      "categories": {
+        "general": "Bendri klausimai",
+        "account": "Paskyra ir saugumas",
+        "features": "Funkcijos ir galimybės",
+        "billing": "Mokėjimai ir prenumerata"
+      }
+    },
+    "support": {
+      "title": "Pagalba",
+      "contact": {
+        "title": "Susisiekite su mumis",
+        "email": "Pagalbos el. paštas",
+        "phone": "Pagalbos telefonas",
+        "hours": "Darbo valandos",
+        "response_time": "Vidutinis atsakymo laikas: {{time}}"
+      },
+      "ticket": {
+        "create": "Sukurti užklausą",
+        "subject": "Tema",
+        "description": "Problemos aprašymas",
+        "priority": "Prioritetas",
+        "submit": "Pateikti"
+      }
+    },
+    "tooltips": {
+      "required_field": "Šis laukas yra privalomas",
+      "password_requirements": "Slaptažodis turi būti bent 8 simbolių ilgio",
+      "drag_and_drop": "Tempkite failus čia",
+      "click_to_edit": "Spustelėkite norėdami redaguoti"
+    }
+  },
+  "theme": {
+    "settings": {
+      "title": "Temos nustatymai",
+      "mode": {
+        "light": "Šviesi tema",
+        "dark": "Tamsi tema",
+        "system": "Sistemos tema"
+      },
+      "colors": {
+        "primary": "Pagrindinė spalva",
+        "secondary": "Antrinė spalva",
+        "accent": "Akcentinė spalva",
+        "background": "Fonas",
+        "text": "Tekstas"
+      },
+      "contrast": {
+        "title": "Kontrastas",
+        "high": "Aukštas",
+        "normal": "Normalus",
+        "low": "Žemas"
+      },
+      "font": {
+        "size": "Šrifto dydis",
+        "family": "Šriftas"
+      }
+    },
+    "colors": {
+      "light": {
+        "background": "#FFFFFF",
+        "text": "#1A1A1A",
+        "primary": "#0066CC",
+        "secondary": "#4D4D4D",
+        "accent": "#FF6B6B",
+        "border": "#E5E5E5",
+        "hover": "#F5F5F5",
+        "disabled": "#999999"
+      },
+      "dark": {
+        "background": "#1A1A1A",
+        "text": "#FFFFFF",
+        "primary": "#3399FF",
+        "secondary": "#CCCCCC",
+        "accent": "#FF8585",
+        "border": "#333333",
+        "hover": "#2A2A2A",
+        "disabled": "#666666"
+      }
+    }
+  }
+}
+
